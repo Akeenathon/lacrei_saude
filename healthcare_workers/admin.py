@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import HealthcareWorker
 
+
 @admin.register(HealthcareWorker)
 class HealthcareWorkersAdmin(admin.ModelAdmin):
     list_display = (

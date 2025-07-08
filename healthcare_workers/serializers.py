@@ -13,7 +13,7 @@ class HealthcareWorkerSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(
                 "Nome deve ter pelo menos 2 caracteres."
             )
-        
+
         return value.strip().title()
 
     def validate_profession(self, value):
@@ -21,7 +21,7 @@ class HealthcareWorkerSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(
                 "Profissão deve ter pelo menos 3 caracteres."
             )
-        
+
         return value.strip().title()
 
     def validate_address(self, value):
@@ -29,7 +29,7 @@ class HealthcareWorkerSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(
                 "Endereço deve ter pelo menos 5 caracteres."
             )
-        
+
         return value.strip()
 
     def validate_phone(self, value):
@@ -37,16 +37,16 @@ class HealthcareWorkerSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(
                 "Telefone é obrigatório."
             )
-        
+
         # Remover caracteres especiais
         phone_digits = ''.join(filter(str.isdigit, value))
-        
+
         # Verificar se tem entre 10 e 11 dígitos (formato brasileiro)
         if len(phone_digits) < 10 or len(phone_digits) > 11:
             raise serializers.ValidationError(
                 "Telefone deve ter entre 10 e 11 dígitos."
             )
-        
+
         return value
 
     # Verificar se email já existe
@@ -58,5 +58,5 @@ class HealthcareWorkerSerializer(serializers.ModelSerializer):
                 raise serializers.ValidationError(
                     "Este email já está cadastrado."
                 )
-        
+
         return value.lower() if value else value

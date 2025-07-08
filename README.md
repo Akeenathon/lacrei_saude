@@ -86,7 +86,9 @@ API RESTful para gestão de profissionais da saúde e consultas médicas, com au
 - **CORS:** Permite integração segura com frontends diversos.
 - **Logging:** Rastreabilidade de acessos e erros.
 
+
 ---
+
 
 ##  Proposta de Rollback Funcional
 
@@ -101,7 +103,9 @@ API RESTful para gestão de profissionais da saúde e consultas médicas, com au
 - **Preview Deploy (Sugestão):**
   - Usar branches de preview para testar features antes de ir para produção.
 
+
 ---
+
 
 ##  Endpoints principais
 
@@ -109,7 +113,9 @@ API RESTful para gestão de profissionais da saúde e consultas médicas, com au
 - `/api/v1/medicalconsultation/` - CRUD de consultas
 - Autenticação JWT: `/api/v1/token/`
 
+
 ---
+
 
 ##  Autor
 

@@ -21,12 +21,12 @@ class MedicalConsultationSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(
                 "Nome do paciente deve ter pelo menos 2 caracteres."
             )
-        
+
         if not all(char.isalpha() or char.isspace() for char in value):
             raise serializers.ValidationError(
                 "Nome do paciente deve conter apenas letras e espaços."
             )
-        
+
         return value.strip().title()
 
     def validate_phone(self, value):
@@ -50,14 +50,14 @@ class MedicalConsultationSerializer(serializers.ModelSerializer):
     def validate(self, data):
         healthcare_worker = data.get('healthcare_worker')
         consultation_date = data.get('consultation_date')
-        
+
         # Validar se não há consulta no mesmo horário para o mesmo médico
         if healthcare_worker and consultation_date:
             existing_consultation = MedicalConsultation.objects.filter(
                 healthcare_worker=healthcare_worker,
                 consultation_date=consultation_date
             ).first()
-            
+
             if existing_consultation and existing_consultation.id != getattr(self.instance, 'id', None):
                 raise serializers.ValidationError(
                     'Este profissional já tem uma consulta marcada neste horário!'
@@ -71,7 +71,7 @@ class MedicalConsultationSerializer(serializers.ModelSerializer):
                 raise serializers.ValidationError(
                     'Consultas só podem ser marcadas entre 8h e 18h.'
                 )
-        
+
         return data
 
     def update(self, instance, validated_data):
