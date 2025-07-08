@@ -119,4 +119,3 @@ API RESTful para gestão de profissionais da saúde e consultas médicas, com au
   <img width="45%" height="195px" src="https://github-readme-stats.vercel.app/api?username=akeenathon&show_icons=true&count_private=true&hide_border=true&title&theme=github_dark_icons=true&bg_color=00000000" alt="Bryan Akenathon GitHub stats" /> 
   <img width="45%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akeenathon&layout=compact&hide_border=true&title&theme=github_dark_icons=true&bg_color=00000000" />
 </div>
-
