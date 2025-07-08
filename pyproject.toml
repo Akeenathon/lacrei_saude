@@ -1,24 +1,26 @@
-[project]
+[tool.poetry]
 name = "lacrei-saude"
 version = "0.1.0"
 description = "API feita durante teste técnico da Lacrei Saúde"
-authors = [
-    {name = "akeenathon",email = "akeenathon@hotmail.com"}
-]
+authors = ["akeenathon <akeenathon@hotmail.com>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "asgiref (==3.9.0)",
-    "django (==5.2.4)",
-    "django-cors-headers (==4.7.0)",
-    "djangorestframework (==3.16.0)",
-    "djangorestframework-simplejwt (==5.5.0)",
-    "pyjwt (==2.9.0)",
-    "sqlparse (==0.5.3)",
-    "tzdata (==2025.2)",
-    "psycopg2-binary (>=2.9.10,<3.0.0)"
-]
+package-mode = false
 
+[tool.poetry.dependencies]
+python = "^3.13"
+asgiref = "3.9.0"
+django = "5.2.4"
+django-cors-headers = "4.7.0"
+djangorestframework = "3.16.0"
+djangorestframework-simplejwt = "5.5.0"
+pyjwt = "2.9.0"
+sqlparse = "0.5.3"
+tzdata = "2025.2"
+psycopg2-binary = "^2.9.10"
+gunicorn = "^21.2.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
