@@ -115,4 +115,11 @@ jobs:
             cd /home/${{ secrets.EC2_USER }}/lacrei_saude
             docker-compose down
             docker-compose up -d --build
+            
+            # Aguardar containers subirem
+            sleep 30
+            
+            # Executar migrações e collectstatic
+            docker-compose exec -T web python manage.py migrate
+            docker-compose exec -T web python manage.py collectstatic --noinput
           EOF
