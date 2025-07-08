@@ -4,7 +4,6 @@
 
 API RESTful para gestão de profissionais da saúde e consultas médicas, com autenticação JWT, PostgreSQL, Docker, CI/CD e testes automatizados.
 
-
 ##  Setup Local
 
 1. **Clone o repositório:**
