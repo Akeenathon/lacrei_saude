@@ -1,0 +1,792 @@
+INFO 2025-07-07 17:35:38,216 views 7704 2000 Usuário 1 (akeenathon) acessou lista de profissionais
+WARNING 2025-07-07 17:36:33,459 views 7704 2000 Usuário 1 deletou profissional ID: 1
+ERROR 2025-07-07 17:36:33,462 views 7704 2000 Erro ao deletar profissional 1: ("Cannot delete some instances of model 'HealthcareWorker' because they are referenced through protected foreign keys: 'MedicalConsultation.healthcare_worker'.", {<MedicalConsultation: Joaozinho>, <MedicalConsultation: Ze>})
+WARNING 2025-07-07 17:36:41,894 views 7704 2000 Usuário 1 deletou profissional ID: 1
+ERROR 2025-07-07 17:36:41,895 views 7704 2000 Erro ao deletar profissional 1: ("Cannot delete some instances of model 'HealthcareWorker' because they are referenced through protected foreign keys: 'MedicalConsultation.healthcare_worker'.", {<MedicalConsultation: Joaozinho>, <MedicalConsultation: Ze>})
+WARNING 2025-07-07 17:36:46,864 views 7704 2000 Usuário 1 deletou profissional ID: 3
+INFO 2025-07-07 17:36:46,870 views 7704 2000 Profissional 3 deletado com sucesso
+WARNING 2025-07-07 17:36:52,719 views 7704 2000 Usuário 1 deletou profissional ID: 3
+ERROR 2025-07-07 17:36:52,719 views 7704 2000 Erro ao deletar profissional 3: No HealthcareWorker matches the given query.
+INFO 2025-07-07 17:37:04,341 views 7704 2000 Usuário 1 (akeenathon) acessou lista de profissionais
+INFO 2025-07-07 17:37:12,386 views 7704 2000 Usuário 1 (akeenathon) acessou lista de profissionais
+INFO 2025-07-07 17:48:50,947 views 15624 10012 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 17:48:51,684 views 15624 10012 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 17:48:52,218 views 15624 10012 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 17:49:53,955 views 15624 10012 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 17:50:11,437 views 15624 10012 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 17:50:24,628 views 15624 10012 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 17:50:36,820 views 15624 10012 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 17:50:48,107 views 15624 10012 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 17:50:48,130 views 15624 10012 Profissional criado com sucesso: Tamara Lemos
+INFO 2025-07-07 18:17:22,988 views 12668 8320 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 18:17:27,926 views 12668 8320 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 19:18:15,053 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:18:15,054 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:15,383 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:18:15,383 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:15,709 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:18:15,709 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:16,039 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:18:16,040 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:16,372 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:18:16,373 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:16,710 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:18:16,710 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:17,687 views 10048 19536 Usuário 1 (akeenathon) acessou lista de consultas
+ERROR 2025-07-07 19:18:18,016 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:18,342 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:18:18,985 views 10048 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:18:18,986 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:18:19,629 views 10048 19536 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:18:19,629 views 10048 19536 Busca realizada por usuário 1: 1
+INFO 2025-07-07 19:18:19,962 views 10048 19536 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:18:19,963 views 10048 19536 Busca realizada por usuário 1: João
+INFO 2025-07-07 19:18:20,297 views 10048 19536 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 19:18:20,297 views 10048 19536 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 19:28:52,156 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:28:52,156 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:52,498 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:28:52,499 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:52,823 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:28:52,823 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:53,163 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:28:53,163 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:53,494 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:28:53,495 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:53,829 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:28:53,829 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:54,810 views 12356 14904 Usuário 1 (akeenathon) acessou lista de consultas
+ERROR 2025-07-07 19:28:55,139 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:55,479 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:28:56,137 views 12356 14904 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:28:56,138 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:28:56,787 views 12356 14904 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:28:56,787 views 12356 14904 Busca realizada por usuário 1: 1
+INFO 2025-07-07 19:28:57,121 views 12356 14904 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:28:57,122 views 12356 14904 Busca realizada por usuário 1: João
+INFO 2025-07-07 19:28:57,461 views 12356 14904 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 19:28:57,461 views 12356 14904 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 19:36:55,819 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:36:55,819 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:36:56,145 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:36:56,146 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:36:56,485 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:36:56,485 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:36:56,843 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:36:56,844 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:36:57,188 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:36:57,188 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:36:57,513 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:36:57,514 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:36:58,495 views 20540 10216 Usuário 1 (akeenathon) acessou lista de consultas
+ERROR 2025-07-07 19:36:58,833 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:36:59,158 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:36:59,803 views 20540 10216 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:36:59,804 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:37:00,445 views 20540 10216 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:37:00,446 views 20540 10216 Busca realizada por usuário 1: 1
+INFO 2025-07-07 19:37:00,771 views 20540 10216 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:37:00,771 views 20540 10216 Busca realizada por usuário 1: João
+INFO 2025-07-07 19:37:01,091 views 20540 10216 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 19:37:01,091 views 20540 10216 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 19:42:50,160 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:42:50,160 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:42:50,489 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:42:50,489 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:42:50,820 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:42:50,820 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:42:51,152 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:42:51,152 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:42:51,479 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:42:51,479 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:42:51,821 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:42:51,822 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+WARNING 2025-07-07 19:42:52,147 views 11008 18092 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 19:42:52,147 views 11008 18092 Consulta 1 deletada com sucesso
+INFO 2025-07-07 19:42:52,798 views 11008 18092 Usuário 1 (akeenathon) acessou lista de consultas
+ERROR 2025-07-07 19:42:53,127 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:42:53,453 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:42:54,097 views 11008 18092 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:42:54,097 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:42:54,418 views 11008 18092 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 19:42:54,743 views 11008 18092 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:42:54,743 views 11008 18092 Busca realizada por usuário 1: 1
+INFO 2025-07-07 19:42:55,067 views 11008 18092 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:42:55,068 views 11008 18092 Busca realizada por usuário 1: João
+INFO 2025-07-07 19:42:55,396 views 11008 18092 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 19:42:55,397 views 11008 18092 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 19:42:56,410 views 11008 18092 Usuário 1 atualizou consulta ID: 1
+ERROR 2025-07-07 19:42:56,411 views 11008 18092 Erro ao atualizar consulta 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:48,707 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:48:48,707 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:49,038 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:48:49,038 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:49,365 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:48:49,365 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:49,709 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:48:49,709 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:50,043 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:48:50,043 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:50,378 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:48:50,378 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+WARNING 2025-07-07 19:48:50,710 views 16692 1396 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 19:48:50,711 views 16692 1396 Consulta 1 deletada com sucesso
+INFO 2025-07-07 19:48:51,367 views 16692 1396 Usuário 1 (akeenathon) acessou lista de consultas
+ERROR 2025-07-07 19:48:51,695 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:52,024 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:48:52,676 views 16692 1396 Usuário 1 (akeenathon) tentando criar nova consulta
+ERROR 2025-07-07 19:48:52,676 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:48:53,006 views 16692 1396 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 19:48:53,327 views 16692 1396 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:48:53,327 views 16692 1396 Busca realizada por usuário 1: 1
+INFO 2025-07-07 19:48:53,659 views 16692 1396 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:48:53,659 views 16692 1396 Busca realizada por usuário 1: João
+INFO 2025-07-07 19:48:53,987 views 16692 1396 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 19:48:53,987 views 16692 1396 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 19:48:54,972 views 16692 1396 Usuário 1 atualizou consulta ID: 1
+ERROR 2025-07-07 19:48:54,973 views 16692 1396 Erro ao atualizar consulta 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 19:56:13,286 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:56:13,621 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:56:13,941 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:56:14,284 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:56:14,617 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:56:14,951 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 19:56:15,278 views 14004 2380 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 19:56:15,279 views 14004 2380 Consulta 1 deletada com sucesso
+INFO 2025-07-07 19:56:15,936 views 14004 2380 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:56:16,593 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:56:17,236 views 14004 2380 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 19:56:17,559 views 14004 2380 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 19:56:17,887 views 14004 2380 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:56:17,887 views 14004 2380 Busca realizada por usuário 1: 1
+INFO 2025-07-07 19:56:18,209 views 14004 2380 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 19:56:18,209 views 14004 2380 Busca realizada por usuário 1: João
+INFO 2025-07-07 19:56:18,538 views 14004 2380 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 19:56:18,538 views 14004 2380 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 19:56:19,511 views 14004 2380 Usuário 1 atualizou consulta ID: 1
+ERROR 2025-07-07 19:56:19,512 views 14004 2380 Erro ao atualizar consulta 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+INFO 2025-07-07 20:01:54,104 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:54,113 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:01:54,444 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:54,444 views 16952 19536 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:01:54,783 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:54,785 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:01:55,118 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:55,119 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:01:55,453 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:55,454 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:01:55,794 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:55,796 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:01:56,122 views 16952 19536 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 20:01:56,123 views 16952 19536 Consulta 1 deletada com sucesso
+INFO 2025-07-07 20:01:56,773 views 16952 19536 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:01:57,101 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:01:57,431 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:57,432 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:01:58,084 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:58,085 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:01:58,089 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:58,089 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:01:58,091 views 16952 19536 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:01:58,092 views 16952 19536 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:01:58,419 views 16952 19536 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 20:01:58,746 views 16952 19536 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:01:58,746 views 16952 19536 Busca realizada por usuário 1: 1
+INFO 2025-07-07 20:01:59,072 views 16952 19536 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:01:59,072 views 16952 19536 Busca realizada por usuário 1: João
+INFO 2025-07-07 20:01:59,396 views 16952 19536 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:01:59,396 views 16952 19536 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:02:00,383 views 16952 19536 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 20:02:00,384 views 16952 19536 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:08:36,592 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:36,597 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:08:36,927 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:36,927 views 18588 20904 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:08:37,267 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:37,268 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:08:37,603 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:37,604 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:08:37,935 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:37,936 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:08:38,266 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:38,267 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:08:38,595 views 18588 20904 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 20:08:38,596 views 18588 20904 Consulta 1 deletada com sucesso
+INFO 2025-07-07 20:08:39,569 views 18588 20904 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:08:39,897 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:08:40,230 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:40,231 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:08:40,870 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:40,872 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:08:40,873 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:40,873 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:08:40,878 views 18588 20904 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:08:40,880 views 18588 20904 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:08:41,206 views 18588 20904 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 20:08:41,527 views 18588 20904 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:08:41,527 views 18588 20904 Busca realizada por usuário 1: 1
+INFO 2025-07-07 20:08:41,847 views 18588 20904 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:08:41,847 views 18588 20904 Busca realizada por usuário 1: João
+INFO 2025-07-07 20:08:42,167 views 18588 20904 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:08:42,168 views 18588 20904 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:08:43,165 views 18588 20904 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 20:08:43,167 views 18588 20904 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:22:55,180 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:55,185 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:22:55,521 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:55,522 views 5324 20616 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:22:55,871 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:55,872 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:22:56,201 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:56,202 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:22:56,538 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:56,539 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:22:56,870 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:56,872 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:22:58,490 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:22:58,819 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:58,820 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:22:59,491 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:59,492 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:22:59,493 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:59,494 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:22:59,495 views 5324 20616 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:22:59,496 views 5324 20616 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:23:00,790 views 5324 20616 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:23:00,790 views 5324 20616 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:24:15,588 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:15,592 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:24:15,918 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:15,918 views 3824 11392 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:24:16,245 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:16,246 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:24:16,572 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:16,573 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:24:16,901 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:16,902 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:24:17,233 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:17,234 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:24:17,562 views 3824 11392 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 20:24:17,563 views 3824 11392 Consulta 1 deletada com sucesso
+INFO 2025-07-07 20:24:18,531 views 3824 11392 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:24:18,861 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:24:19,186 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:19,187 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:24:19,855 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:19,856 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:24:19,857 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:19,858 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:24:19,864 views 3824 11392 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:24:19,865 views 3824 11392 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:24:20,199 views 3824 11392 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 20:24:20,535 views 3824 11392 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:24:20,535 views 3824 11392 Busca realizada por usuário 1: 1
+INFO 2025-07-07 20:24:20,891 views 3824 11392 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:24:20,892 views 3824 11392 Busca realizada por usuário 1: João
+INFO 2025-07-07 20:24:21,224 views 3824 11392 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:24:21,225 views 3824 11392 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:24:22,221 views 3824 11392 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 20:24:22,222 views 3824 11392 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:25:21,557 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:21,562 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:25:21,908 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:21,908 views 12352 13792 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:25:22,229 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:22,230 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:25:22,560 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:22,561 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:25:22,884 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:22,885 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:25:23,207 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:23,209 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:25:23,548 views 12352 13792 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 20:25:23,549 views 12352 13792 Consulta 1 deletada com sucesso
+INFO 2025-07-07 20:25:24,526 views 12352 13792 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:25:24,850 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:25:25,175 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:25,176 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:25:25,823 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:25,824 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:25:25,825 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:25,826 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:25:25,830 views 12352 13792 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:25:25,831 views 12352 13792 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:25:26,154 views 12352 13792 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 20:25:26,477 views 12352 13792 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:25:26,477 views 12352 13792 Busca realizada por usuário 1: 1
+INFO 2025-07-07 20:25:26,802 views 12352 13792 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:25:26,803 views 12352 13792 Busca realizada por usuário 1: João
+INFO 2025-07-07 20:25:27,128 views 12352 13792 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:25:27,128 views 12352 13792 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:25:28,108 views 12352 13792 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 20:25:28,109 views 12352 13792 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:27:13,062 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:13,067 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:27:13,396 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:13,397 views 20824 4928 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:27:13,720 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:13,721 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:27:14,043 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:14,044 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:27:14,368 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:14,369 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:27:14,696 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:14,698 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:27:15,020 views 20824 4928 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 20:27:15,021 views 20824 4928 Consulta 1 deletada com sucesso
+INFO 2025-07-07 20:27:16,007 views 20824 4928 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:27:16,344 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:27:16,672 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:16,673 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:27:17,323 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:17,323 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:27:17,325 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:17,329 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:27:17,330 views 20824 4928 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:27:17,331 views 20824 4928 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:27:17,661 views 20824 4928 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 20:27:17,983 views 20824 4928 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:27:17,983 views 20824 4928 Busca realizada por usuário 1: 1
+INFO 2025-07-07 20:27:18,312 views 20824 4928 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:27:18,313 views 20824 4928 Busca realizada por usuário 1: João
+INFO 2025-07-07 20:27:18,633 views 20824 4928 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:27:18,633 views 20824 4928 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:27:19,603 views 20824 4928 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 20:27:19,605 views 20824 4928 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:32:03,532 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:03,537 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:32:03,861 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:03,861 views 18080 18896 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:32:04,182 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:04,183 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:32:04,504 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:04,505 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:32:04,823 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:04,824 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:32:05,142 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:05,144 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:32:05,473 views 18080 18896 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 20:32:05,474 views 18080 18896 Consulta 1 deletada com sucesso
+INFO 2025-07-07 20:32:06,446 views 18080 18896 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:32:06,768 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:32:07,086 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:07,087 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:32:07,722 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:07,723 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:32:07,724 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:07,725 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:32:07,728 views 18080 18896 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:32:07,730 views 18080 18896 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:32:08,049 views 18080 18896 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 20:32:08,367 views 18080 18896 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:32:08,367 views 18080 18896 Busca realizada por usuário 1: 1
+INFO 2025-07-07 20:32:08,684 views 18080 18896 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:32:08,684 views 18080 18896 Busca realizada por usuário 1: João
+INFO 2025-07-07 20:32:09,003 views 18080 18896 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:32:09,003 views 18080 18896 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:32:09,964 views 18080 18896 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 20:32:09,966 views 18080 18896 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:37:32,285 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:32,290 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:37:32,616 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:32,617 views 19800 17852 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 20:37:32,947 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:32,948 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:37:33,274 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:33,275 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:37:33,602 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:33,603 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 20:37:33,930 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:33,931 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 20:37:34,253 views 19800 17852 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 20:37:34,254 views 19800 17852 Consulta 1 deletada com sucesso
+INFO 2025-07-07 20:37:35,213 views 19800 17852 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:37:35,539 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:37:35,868 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:35,869 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 20:37:36,522 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:36,524 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 20:37:36,525 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:36,526 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 20:37:36,527 views 19800 17852 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 20:37:36,528 views 19800 17852 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 20:37:36,854 views 19800 17852 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 20:37:37,175 views 19800 17852 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:37:37,176 views 19800 17852 Busca realizada por usuário 1: 1
+INFO 2025-07-07 20:37:37,496 views 19800 17852 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 20:37:37,496 views 19800 17852 Busca realizada por usuário 1: João
+INFO 2025-07-07 20:37:37,824 views 19800 17852 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 20:37:37,824 views 19800 17852 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 20:37:38,780 views 19800 17852 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 20:37:38,782 views 19800 17852 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:11:31,064 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:31,076 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:11:31,403 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:31,404 views 15440 16240 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 21:11:31,723 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:31,725 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:11:32,046 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:32,048 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:11:32,372 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:32,373 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 21:11:32,691 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:32,692 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 21:11:33,015 views 15440 16240 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 21:11:33,016 views 15440 16240 Consulta 1 deletada com sucesso
+INFO 2025-07-07 21:11:33,982 views 15440 16240 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 21:11:34,305 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:11:34,629 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:34,630 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 21:11:35,266 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:35,267 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:11:35,268 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:35,269 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 21:11:35,270 views 15440 16240 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:11:35,271 views 15440 16240 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:11:35,593 views 15440 16240 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 21:11:35,916 views 15440 16240 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:11:35,917 views 15440 16240 Busca realizada por usuário 1: 1
+INFO 2025-07-07 21:11:36,240 views 15440 16240 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:11:36,240 views 15440 16240 Busca realizada por usuário 1: João
+INFO 2025-07-07 21:11:36,561 views 15440 16240 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 21:11:36,562 views 15440 16240 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 21:11:37,530 views 15440 16240 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 21:11:37,532 views 15440 16240 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:24:46,767 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:46,775 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:24:47,111 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:47,111 views 15428 4368 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 21:24:47,443 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:47,444 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:24:47,783 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:47,785 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:24:48,133 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:48,134 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 21:24:48,483 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:48,485 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+WARNING 2025-07-07 21:24:48,838 views 15428 4368 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 21:24:48,839 views 15428 4368 Consulta 1 deletada com sucesso
+INFO 2025-07-07 21:24:49,874 views 15428 4368 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 21:24:50,235 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:24:50,585 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:50,586 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 21:24:51,239 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:51,240 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:24:51,241 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:51,242 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 21:24:51,243 views 15428 4368 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:24:51,244 views 15428 4368 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:24:51,572 views 15428 4368 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 21:24:51,900 views 15428 4368 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:24:51,900 views 15428 4368 Busca realizada por usuário 1: 1
+INFO 2025-07-07 21:24:52,229 views 15428 4368 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:24:52,229 views 15428 4368 Busca realizada por usuário 1: João
+INFO 2025-07-07 21:24:52,559 views 15428 4368 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 21:24:52,559 views 15428 4368 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 21:24:53,540 views 15428 4368 Usuário 1 atualizou consulta ID: 1
+WARNING 2025-07-07 21:24:53,541 views 15428 4368 Validação falhou ao atualizar consulta 1 por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:27:14,679 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:14,681 views 22472 16524 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:27:14,682 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:14,684 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Este profissional já tem uma consulta marcada neste horário!', code='invalid')]}
+INFO 2025-07-07 21:27:15,014 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:15,014 views 22472 16524 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 21:27:15,359 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:15,360 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:27:15,697 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:15,699 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:27:16,025 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:16,026 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 21:27:16,353 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:16,355 views 22472 16524 Consulta criada com sucesso por usuário 1: ID 1
+WARNING 2025-07-07 21:27:16,681 views 22472 16524 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 21:27:16,682 views 22472 16524 Consulta 1 deletada com sucesso
+INFO 2025-07-07 21:27:17,656 views 22472 16524 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:27:18,310 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:18,311 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 21:27:18,962 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:18,963 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:27:18,967 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:18,967 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 21:27:18,968 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:18,970 views 22472 16524 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:27:18,971 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:18,972 views 22472 16524 Consulta criada com sucesso por usuário 1: ID 2
+INFO 2025-07-07 21:27:18,974 views 22472 16524 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:18,974 views 22472 16524 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+INFO 2025-07-07 21:27:19,299 views 22472 16524 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 21:27:19,628 views 22472 16524 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:27:19,628 views 22472 16524 Busca realizada por usuário 1: 1
+INFO 2025-07-07 21:27:19,952 views 22472 16524 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:27:19,952 views 22472 16524 Busca realizada por usuário 1: João
+INFO 2025-07-07 21:27:20,281 views 22472 16524 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 21:27:20,281 views 22472 16524 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 21:27:21,280 views 22472 16524 Usuário 1 atualizou consulta ID: 1
+ERROR 2025-07-07 21:27:21,281 views 22472 16524 Erro ao atualizar consulta 1: 'MedicalConsultation' object has no attribute 'status'
+INFO 2025-07-07 21:27:41,374 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:41,377 views 21296 7824 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:27:41,378 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:41,379 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Este profissional já tem uma consulta marcada neste horário!', code='invalid')]}
+INFO 2025-07-07 21:27:41,720 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:41,721 views 21296 7824 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 21:27:42,060 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:42,061 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:27:42,406 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:42,408 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:27:42,734 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:42,735 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 21:27:43,066 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:43,068 views 21296 7824 Consulta criada com sucesso por usuário 1: ID 1
+WARNING 2025-07-07 21:27:43,392 views 21296 7824 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 21:27:43,393 views 21296 7824 Consulta 1 deletada com sucesso
+INFO 2025-07-07 21:27:44,362 views 21296 7824 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:27:45,023 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:45,024 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 21:27:45,671 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:45,672 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:27:45,675 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:45,676 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 21:27:45,677 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:45,679 views 21296 7824 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:27:45,679 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:27:45,681 views 21296 7824 Consulta criada com sucesso por usuário 1: ID 2
+INFO 2025-07-07 21:27:45,682 views 21296 7824 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:27:45,683 views 21296 7824 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+INFO 2025-07-07 21:27:46,013 views 21296 7824 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 21:27:46,335 views 21296 7824 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:27:46,335 views 21296 7824 Busca realizada por usuário 1: 1
+INFO 2025-07-07 21:27:46,665 views 21296 7824 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:27:46,665 views 21296 7824 Busca realizada por usuário 1: João
+INFO 2025-07-07 21:27:46,993 views 21296 7824 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 21:27:46,993 views 21296 7824 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 21:27:47,981 views 21296 7824 Usuário 1 atualizou consulta ID: 1
+INFO 2025-07-07 21:27:47,983 views 21296 7824 Consulta 1 atualizada com sucesso
+INFO 2025-07-07 21:39:32,480 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:32,503 views 20616 16616 Erro ao criar profissional: {'address': [ErrorDetail(string='Endereço deve ter pelo menos 5 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:39:32,506 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:32,511 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:32,514 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:32,515 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:32,517 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:32,518 views 20616 16616 Erro ao criar profissional: {'address': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+INFO 2025-07-07 21:39:32,852 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:32,853 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:32,854 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:32,855 views 20616 16616 Erro ao criar profissional: {'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+INFO 2025-07-07 21:39:33,208 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:33,540 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:33,541 views 20616 16616 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:39:33,870 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:33,871 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:34,198 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:34,200 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:34,523 views 20616 16616 Usuário akeenathon deletando profissional ID: 1
+INFO 2025-07-07 21:39:34,524 views 20616 16616 Profissional 1 deletado com sucesso
+INFO 2025-07-07 21:39:34,847 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:34,848 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:34,850 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:34,851 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:34,853 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:34,853 views 20616 16616 Erro ao criar profissional: {'email': [ErrorDetail(string='Insira um endereço de email válido.', code='invalid')]}
+INFO 2025-07-07 21:39:34,854 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:34,855 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:35,836 views 20616 16616 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:39:36,494 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,138 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:38,139 views 20616 16616 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:39:38,141 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,142 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:38,144 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,145 views 20616 16616 Profissional criado com sucesso: Dra. Ana Maria Santos
+INFO 2025-07-07 21:39:38,148 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,490 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:38,491 views 20616 16616 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')]}
+INFO 2025-07-07 21:39:38,492 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,493 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:38,495 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,497 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:38,499 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,854 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:38,854 views 20616 16616 Erro ao criar profissional: {'profession': [ErrorDetail(string='Profissão deve ter pelo menos 3 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:39:38,856 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,857 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:38,858 views 20616 16616 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:38,859 views 20616 16616 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:38,860 views 20616 16616 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:38,861 views 20616 16616 Erro ao criar profissional: {'profession': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+INFO 2025-07-07 21:39:39,189 views 20616 16616 Usuário akeenathon visualizou profissional ID: 1
+INFO 2025-07-07 21:39:39,517 views 20616 16616 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:39:39,517 views 20616 16616 Busca por: João
+INFO 2025-07-07 21:39:39,844 views 20616 16616 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:39:39,844 views 20616 16616 Busca por: Cardiologista
+INFO 2025-07-07 21:39:40,852 views 20616 16616 Usuário akeenathon atualizando profissional ID: 1
+INFO 2025-07-07 21:39:40,854 views 20616 16616 Profissional 1 atualizado com sucesso
+INFO 2025-07-07 21:39:54,112 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:54,132 views 22116 7320 Erro ao criar profissional: {'address': [ErrorDetail(string='Endereço deve ter pelo menos 5 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:39:54,135 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:54,140 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:54,142 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:54,143 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:54,145 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:54,146 views 22116 7320 Erro ao criar profissional: {'address': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+INFO 2025-07-07 21:39:54,482 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:54,483 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:54,484 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:54,485 views 22116 7320 Erro ao criar profissional: {'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+INFO 2025-07-07 21:39:54,819 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:55,148 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:55,149 views 22116 7320 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:39:55,485 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:55,487 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:55,839 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:55,840 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:56,189 views 22116 7320 Usuário akeenathon deletando profissional ID: 1
+INFO 2025-07-07 21:39:56,190 views 22116 7320 Profissional 1 deletado com sucesso
+INFO 2025-07-07 21:39:56,528 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:56,530 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:56,531 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:56,532 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:56,534 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:56,534 views 22116 7320 Erro ao criar profissional: {'email': [ErrorDetail(string='Insira um endereço de email válido.', code='invalid')]}
+INFO 2025-07-07 21:39:56,538 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:56,539 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:57,547 views 22116 7320 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:39:58,242 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:59,934 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:39:59,935 views 22116 7320 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:39:59,936 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:59,938 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:39:59,939 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:39:59,940 views 22116 7320 Profissional criado com sucesso: Dra. Ana Maria Santos
+INFO 2025-07-07 21:39:59,942 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:40:00,273 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:40:00,274 views 22116 7320 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')]}
+INFO 2025-07-07 21:40:00,276 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:40:00,277 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:40:00,278 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:40:00,279 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:40:00,281 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:40:00,612 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:40:00,613 views 22116 7320 Erro ao criar profissional: {'profession': [ErrorDetail(string='Profissão deve ter pelo menos 3 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:40:00,614 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:40:00,615 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:40:00,616 views 22116 7320 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:40:00,617 views 22116 7320 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:40:00,619 views 22116 7320 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:40:00,620 views 22116 7320 Erro ao criar profissional: {'profession': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+INFO 2025-07-07 21:40:00,952 views 22116 7320 Usuário akeenathon visualizou profissional ID: 1
+INFO 2025-07-07 21:40:01,280 views 22116 7320 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:40:01,280 views 22116 7320 Busca por: João
+INFO 2025-07-07 21:40:01,608 views 22116 7320 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:40:01,609 views 22116 7320 Busca por: Cardiologista
+INFO 2025-07-07 21:40:02,629 views 22116 7320 Usuário akeenathon atualizando profissional ID: 1
+INFO 2025-07-07 21:40:02,631 views 22116 7320 Profissional 1 atualizado com sucesso
+INFO 2025-07-07 21:40:02,964 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:40:02,966 views 22116 7320 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:40:02,967 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:02,968 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Este profissional já tem uma consulta marcada neste horário!', code='invalid')]}
+INFO 2025-07-07 21:40:03,298 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:03,298 views 22116 7320 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 21:40:03,633 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:03,634 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:40:03,966 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:03,967 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'non_field_errors': [ErrorDetail(string='Consultas só podem ser marcadas entre 8h e 18h.', code='invalid')]}
+INFO 2025-07-07 21:40:04,291 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:04,292 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'consultation_date': [ErrorDetail(string='A data da consulta não pode ser no passado.', code='invalid')]}
+INFO 2025-07-07 21:40:04,621 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:40:04,623 views 22116 7320 Consulta criada com sucesso por usuário 1: ID 1
+WARNING 2025-07-07 21:40:04,954 views 22116 7320 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 21:40:04,954 views 22116 7320 Consulta 1 deletada com sucesso
+INFO 2025-07-07 21:40:05,935 views 22116 7320 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:40:06,592 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:06,593 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 21:40:07,243 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:07,244 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:40:07,245 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:07,246 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve conter apenas letras e espaços.', code='invalid')]}
+INFO 2025-07-07 21:40:07,247 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:40:07,248 views 22116 7320 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:40:07,249 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:40:07,251 views 22116 7320 Consulta criada com sucesso por usuário 1: ID 2
+INFO 2025-07-07 21:40:07,252 views 22116 7320 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:40:07,252 views 22116 7320 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+INFO 2025-07-07 21:40:07,581 views 22116 7320 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 21:40:07,912 views 22116 7320 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:40:07,912 views 22116 7320 Busca realizada por usuário 1: 1
+INFO 2025-07-07 21:40:08,238 views 22116 7320 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:40:08,238 views 22116 7320 Busca realizada por usuário 1: João
+INFO 2025-07-07 21:40:08,563 views 22116 7320 Usuário 1 (akeenathon) acessou lista de consultas
+WARNING 2025-07-07 21:40:08,563 views 22116 7320 Busca muito longa rejeitada: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...
+INFO 2025-07-07 21:40:09,539 views 22116 7320 Usuário 1 atualizou consulta ID: 1
+INFO 2025-07-07 21:40:09,542 views 22116 7320 Consulta 1 atualizada com sucesso
+INFO 2025-07-07 21:45:00,960 views 464 7316 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:45:00,980 views 464 7316 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:45:01,315 views 464 7316 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:45:01,320 views 464 7316 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:45:01,673 views 464 7316 Usuário akeenathon deletando profissional ID: 1
+INFO 2025-07-07 21:45:01,674 views 464 7316 Profissional 1 deletado com sucesso
+INFO 2025-07-07 21:45:02,679 views 464 7316 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:45:03,007 views 464 7316 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:45:03,009 views 464 7316 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:45:03,010 views 464 7316 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:45:03,010 views 464 7316 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+INFO 2025-07-07 21:45:03,347 views 464 7316 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:45:03,348 views 464 7316 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:45:03,349 views 464 7316 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:45:03,350 views 464 7316 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+INFO 2025-07-07 21:45:03,677 views 464 7316 Usuário akeenathon visualizou profissional ID: 1
+INFO 2025-07-07 21:45:04,680 views 464 7316 Usuário akeenathon atualizando profissional ID: 1
+INFO 2025-07-07 21:45:04,681 views 464 7316 Profissional 1 atualizado com sucesso
+INFO 2025-07-07 21:45:05,011 views 464 7316 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:45:05,012 views 464 7316 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:45:05,342 views 464 7316 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:45:05,344 views 464 7316 Consulta criada com sucesso por usuário 1: ID 1
+WARNING 2025-07-07 21:45:05,683 views 464 7316 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 21:45:05,684 views 464 7316 Consulta 1 deletada com sucesso
+INFO 2025-07-07 21:45:06,675 views 464 7316 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:45:07,015 views 464 7316 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:45:07,016 views 464 7316 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:45:07,017 views 464 7316 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:45:07,018 views 464 7316 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:45:07,344 views 464 7316 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 21:45:08,318 views 464 7316 Usuário 1 atualizou consulta ID: 1
+INFO 2025-07-07 21:45:08,319 views 464 7316 Consulta 1 atualizada com sucesso
+INFO 2025-07-07 21:49:37,100 views 21820 9716 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:49:37,444 views 21820 9716 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:49:37,464 views 21820 9716 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:49:37,817 views 21820 9716 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:49:37,818 views 21820 9716 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:49:38,185 views 21820 9716 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:49:38,190 views 21820 9716 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:49:38,526 views 21820 9716 Usuário akeenathon deletando profissional ID: 1
+INFO 2025-07-07 21:49:38,527 views 21820 9716 Profissional 1 deletado com sucesso
+INFO 2025-07-07 21:49:39,515 views 21820 9716 Usuário akeenathon acessou lista de profissionais
+INFO 2025-07-07 21:49:39,855 views 21820 9716 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:49:39,856 views 21820 9716 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:49:39,857 views 21820 9716 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:49:39,858 views 21820 9716 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+INFO 2025-07-07 21:49:40,205 views 21820 9716 Usuário akeenathon criando novo profissional
+INFO 2025-07-07 21:49:40,206 views 21820 9716 Profissional criado com sucesso: Dr. João Silva
+INFO 2025-07-07 21:49:40,207 views 21820 9716 Usuário akeenathon criando novo profissional
+ERROR 2025-07-07 21:49:40,208 views 21820 9716 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+INFO 2025-07-07 21:49:40,550 views 21820 9716 Usuário akeenathon visualizou profissional ID: 1
+INFO 2025-07-07 21:49:41,581 views 21820 9716 Usuário akeenathon atualizando profissional ID: 1
+INFO 2025-07-07 21:49:41,582 views 21820 9716 Profissional 1 atualizado com sucesso
+INFO 2025-07-07 21:49:41,911 views 21820 9716 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:49:41,912 views 21820 9716 Tentativa de criação sem dados por usuário 1
+INFO 2025-07-07 21:49:42,241 views 21820 9716 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:49:42,242 views 21820 9716 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:49:42,586 views 21820 9716 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:49:42,587 views 21820 9716 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}
+INFO 2025-07-07 21:49:42,950 views 21820 9716 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:49:42,951 views 21820 9716 Consulta criada com sucesso por usuário 1: ID 1
+WARNING 2025-07-07 21:49:43,289 views 21820 9716 Usuário 1 deletou consulta ID: 1
+INFO 2025-07-07 21:49:43,290 views 21820 9716 Consulta 1 deletada com sucesso
+INFO 2025-07-07 21:49:44,275 views 21820 9716 Usuário 1 (akeenathon) acessou lista de consultas
+INFO 2025-07-07 21:49:44,601 views 21820 9716 Usuário 1 (akeenathon) tentando criar nova consulta
+INFO 2025-07-07 21:49:44,602 views 21820 9716 Consulta criada com sucesso por usuário 1: ID 1
+INFO 2025-07-07 21:49:44,603 views 21820 9716 Usuário 1 (akeenathon) tentando criar nova consulta
+WARNING 2025-07-07 21:49:44,604 views 21820 9716 Validação falhou ao criar consulta por usuário 1: {'patient_name': [ErrorDetail(string='Nome do paciente deve ter pelo menos 2 caracteres.', code='invalid')]}
+INFO 2025-07-07 21:49:44,938 views 21820 9716 Usuário 1 visualizou consulta ID: 1
+INFO 2025-07-07 21:49:45,924 views 21820 9716 Usuário 1 atualizou consulta ID: 1
+INFO 2025-07-07 21:49:45,925 views 21820 9716 Consulta 1 atualizada com sucesso

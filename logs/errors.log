@@ -1,0 +1,469 @@
+ERROR 2025-07-07 17:36:33,462 views 7704 2000 Erro ao deletar profissional 1: ("Cannot delete some instances of model 'HealthcareWorker' because they are referenced through protected foreign keys: 'MedicalConsultation.healthcare_worker'.", {<MedicalConsultation: Joaozinho>, <MedicalConsultation: Ze>})
+ERROR 2025-07-07 17:36:33,462 log 7704 2000 Internal Server Error: /api/v1/healthcareworker/1/
+ERROR 2025-07-07 17:36:33,462 basehttp 7704 2000 "DELETE /api/v1/healthcareworker/1/ HTTP/1.1" 500 36
+ERROR 2025-07-07 17:36:41,895 views 7704 2000 Erro ao deletar profissional 1: ("Cannot delete some instances of model 'HealthcareWorker' because they are referenced through protected foreign keys: 'MedicalConsultation.healthcare_worker'.", {<MedicalConsultation: Joaozinho>, <MedicalConsultation: Ze>})
+ERROR 2025-07-07 17:36:41,896 log 7704 2000 Internal Server Error: /api/v1/healthcareworker/1/
+ERROR 2025-07-07 17:36:41,896 basehttp 7704 2000 "DELETE /api/v1/healthcareworker/1/ HTTP/1.1" 500 36
+ERROR 2025-07-07 17:36:52,719 views 7704 2000 Erro ao deletar profissional 3: No HealthcareWorker matches the given query.
+ERROR 2025-07-07 17:36:52,720 log 7704 2000 Internal Server Error: /api/v1/healthcareworker/3/
+ERROR 2025-07-07 17:36:52,720 basehttp 7704 2000 "DELETE /api/v1/healthcareworker/3/ HTTP/1.1" 500 36
+ERROR 2025-07-07 19:18:15,054 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:15,055 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:15,383 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:15,384 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:15,709 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:15,709 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:16,040 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:16,040 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:16,373 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:16,373 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:16,710 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:16,710 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:18,016 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:18,017 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:18,986 views 10048 19536 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:18:18,986 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:18:19,630 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+Traceback (most recent call last):
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\generics.py", line 243, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\medical_consultation\views.py", line 40, in get_queryset
+    queryset = queryset.filter(
+        Q(healthcare_workers__id=doctor_id) |
+        Q(healthcare_workers__first_name__icontains=search) |
+        Q(healthcare_workers__last_name__icontains=search)
+    )
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1503, in build_filter
+    return self._add_q(
+           ~~~~~~~~~~~^
+        filter_expr,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'healthcare_workers' into field. Choices are: age, consultation_date, created_at, healthcare_worker, healthcare_worker_id, id, patient_name, patient_preferred_name
+ERROR 2025-07-07 19:18:19,963 log 10048 19536 Internal Server Error: /api/v1/medicalconsultation/
+Traceback (most recent call last):
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\medical_consultation\views.py", line 39, in get_queryset
+    doctor_id = int(search)
+ValueError: invalid literal for int() with base 10: 'João'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\generics.py", line 243, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\medical_consultation\views.py", line 46, in get_queryset
+    queryset = queryset.filter(
+        Q(healthcare_workers__first_name__icontains=search) |
+        Q(healthcare_workers__last_name__icontains=search)
+    )
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1503, in build_filter
+    return self._add_q(
+           ~~~~~~~~~~~^
+        filter_expr,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'healthcare_workers' into field. Choices are: age, consultation_date, created_at, healthcare_worker, healthcare_worker_id, id, patient_name, patient_preferred_name
+ERROR 2025-07-07 19:28:52,156 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:52,157 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:52,499 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:52,499 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:52,823 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:52,824 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:53,163 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:53,164 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:53,495 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:53,495 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:53,829 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:53,829 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:55,139 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:55,139 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:56,138 views 12356 14904 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:28:56,138 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:28:56,788 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+Traceback (most recent call last):
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\generics.py", line 243, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\medical_consultation\views.py", line 40, in get_queryset
+    queryset = queryset.filter(
+        Q(healthcare_worker__id=doctor_id) |
+        Q(healthcare_worker__first_name__icontains=search) |
+        Q(healthcare_worker__last_name__icontains=search)
+    )
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1503, in build_filter
+    return self._add_q(
+           ~~~~~~~~~~~^
+        filter_expr,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1402, in build_lookup
+    lhs = self.try_transform(lhs, name, lookups)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1458, in try_transform
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Unsupported lookup 'first_name__icontains' for ForeignKey or join on the field not permitted.
+ERROR 2025-07-07 19:28:57,125 log 12356 14904 Internal Server Error: /api/v1/medicalconsultation/
+Traceback (most recent call last):
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\medical_consultation\views.py", line 39, in get_queryset
+    doctor_id = int(search)
+ValueError: invalid literal for int() with base 10: 'João'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\generics.py", line 243, in get
+    return self.list(request, *args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\medical_consultation\views.py", line 46, in get_queryset
+    queryset = queryset.filter(
+        Q(healthcare_worker__first_name__icontains=search) |
+        Q(healthcare_worker__last_name__icontains=search)
+    )
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1503, in build_filter
+    return self._add_q(
+           ~~~~~~~~~~~^
+        filter_expr,
+        ^^^^^^^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1402, in build_lookup
+    lhs = self.try_transform(lhs, name, lookups)
+  File "C:\Users\Akeenathon\projetos_python\desafios_tecnicos\lacrei_saude\venv\Lib\site-packages\django\db\models\sql\query.py", line 1458, in try_transform
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Unsupported lookup 'first_name__icontains' for ForeignKey or join on the field not permitted.
+ERROR 2025-07-07 19:36:55,819 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:55,820 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:36:56,146 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:56,146 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:36:56,485 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:56,485 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:36:56,844 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:56,844 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:36:57,188 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:57,188 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:36:57,514 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:57,514 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:36:58,833 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:58,834 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:36:59,804 views 20540 10216 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:36:59,804 log 20540 10216 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:50,160 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:50,161 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:50,489 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:50,490 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:50,820 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:50,821 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:51,152 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:51,152 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:51,479 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:51,479 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:51,822 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:51,822 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:53,127 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:53,128 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:54,097 views 11008 18092 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:54,097 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:42:56,411 views 11008 18092 Erro ao atualizar consulta 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:42:56,411 log 11008 18092 Internal Server Error: /api/v1/medicalconsultation/1/
+ERROR 2025-07-07 19:48:48,707 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:48,708 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:49,038 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:49,038 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:49,365 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:49,366 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:49,709 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:49,709 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:50,043 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:50,044 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:50,378 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:50,379 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:51,695 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:51,696 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:52,676 views 16692 1396 Erro ao criar consulta para usuário 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:52,677 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/
+ERROR 2025-07-07 19:48:54,973 views 16692 1396 Erro ao atualizar consulta 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:48:54,973 log 16692 1396 Internal Server Error: /api/v1/medicalconsultation/1/
+ERROR 2025-07-07 19:56:19,512 views 14004 2380 Erro ao atualizar consulta 1: Tipo de mídia  "multipart/form-data; boundary=BoUnDaRyStRiNg; charset=utf-8" no pedido não é suportado.
+ERROR 2025-07-07 19:56:19,513 log 14004 2380 Internal Server Error: /api/v1/medicalconsultation/1/
+ERROR 2025-07-07 21:27:21,281 views 22472 16524 Erro ao atualizar consulta 1: 'MedicalConsultation' object has no attribute 'status'
+ERROR 2025-07-07 21:27:21,282 log 22472 16524 Internal Server Error: /api/v1/medicalconsultation/1/
+ERROR 2025-07-07 21:39:32,503 views 20616 16616 Erro ao criar profissional: {'address': [ErrorDetail(string='Endereço deve ter pelo menos 5 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:39:32,518 views 20616 16616 Erro ao criar profissional: {'address': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+ERROR 2025-07-07 21:39:32,855 views 20616 16616 Erro ao criar profissional: {'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+ERROR 2025-07-07 21:39:33,541 views 20616 16616 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:39:34,853 views 20616 16616 Erro ao criar profissional: {'email': [ErrorDetail(string='Insira um endereço de email válido.', code='invalid')]}
+ERROR 2025-07-07 21:39:38,139 views 20616 16616 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:39:38,491 views 20616 16616 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')]}
+ERROR 2025-07-07 21:39:38,854 views 20616 16616 Erro ao criar profissional: {'profession': [ErrorDetail(string='Profissão deve ter pelo menos 3 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:39:38,861 views 20616 16616 Erro ao criar profissional: {'profession': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+ERROR 2025-07-07 21:39:54,132 views 22116 7320 Erro ao criar profissional: {'address': [ErrorDetail(string='Endereço deve ter pelo menos 5 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:39:54,146 views 22116 7320 Erro ao criar profissional: {'address': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+ERROR 2025-07-07 21:39:54,485 views 22116 7320 Erro ao criar profissional: {'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+ERROR 2025-07-07 21:39:55,149 views 22116 7320 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:39:56,534 views 22116 7320 Erro ao criar profissional: {'email': [ErrorDetail(string='Insira um endereço de email válido.', code='invalid')]}
+ERROR 2025-07-07 21:39:59,935 views 22116 7320 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:40:00,274 views 22116 7320 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')]}
+ERROR 2025-07-07 21:40:00,613 views 22116 7320 Erro ao criar profissional: {'profession': [ErrorDetail(string='Profissão deve ter pelo menos 3 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:40:00,620 views 22116 7320 Erro ao criar profissional: {'profession': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}
+ERROR 2025-07-07 21:45:00,980 views 464 7316 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:45:03,010 views 464 7316 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+ERROR 2025-07-07 21:45:03,350 views 464 7316 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+ERROR 2025-07-07 21:49:37,464 views 21820 9716 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')]}
+ERROR 2025-07-07 21:49:39,858 views 21820 9716 Erro ao criar profissional: {'name': [ErrorDetail(string='Nome deve ter pelo menos 2 caracteres.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
+ERROR 2025-07-07 21:49:40,208 views 21820 9716 Erro ao criar profissional: {'phone': [ErrorDetail(string='Telefone deve ter entre 10 e 11 dígitos.', code='invalid')], 'email': [ErrorDetail(string='Este email já está cadastrado.', code='invalid')]}
