@@ -1,7 +1,7 @@
 [project]
-name = "gerenciamento-consultas-medicas"
-version = "0.1"
-description = "API desenvolvida para teste técnico lacrei saúde"
+name = "lacrei-saude"
+version = "0.1.0"
+description = "API feita durante teste técnico da Lacrei Saúde"
 authors = [
     {name = "akeenathon",email = "akeenathon@hotmail.com"}
 ]
@@ -15,7 +15,8 @@ dependencies = [
     "djangorestframework-simplejwt (==5.5.0)",
     "pyjwt (==2.9.0)",
     "sqlparse (==0.5.3)",
-    "tzdata (==2025.2)"
+    "tzdata (==2025.2)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)"
 ]
 
 

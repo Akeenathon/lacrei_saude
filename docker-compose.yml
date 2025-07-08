@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:15
+    container_name: lacrei-saude-db
+    environment:
+      POSTGRES_DB: lacrei_saude
+      POSTGRES_USER: lacrei_saude
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - lacrei_net
+
+  web:
+    build: .
+    restart: always
+    container_name: lacrei-saude-web
+    command: sh -c "python manage.py migrate && gunicorn app.wsgi:application --bind 0.0.0.0:8000"
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      DJANGO_SETTINGS_MODULE: app.settings
+      DEBUG: 'True'
+      DB_NAME: lacrei_saude
+      DB_USER: lacrei_saude
+      DB_PASSWORD: postgres
+      DB_HOST: lacrei-saude-db
+      DB_PORT: 5432
+    networks:
+      - lacrei_net
+
+volumes:
+  pgdata:
+
+networks:
+  lacrei_net:
+    driver: bridge 

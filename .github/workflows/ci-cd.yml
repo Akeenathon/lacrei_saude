@@ -70,10 +70,9 @@ jobs:
       - name: Build do Projeto
         run: |
           echo "Build concluído com sucesso!"
-          # Adicione comandos de build específicos se necessário
 
   deploy:
-    name: Deploy
+    name: Deploy EC2
     runs-on: ubuntu-latest
     needs: build
     if: github.ref == 'refs/heads/main'
@@ -81,30 +80,19 @@ jobs:
       - name: Checkout código
         uses: actions/checkout@v3
 
-      - name: Configurar AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
+      - name: Adicionar chave SSH
+        uses: webfactory/ssh-agent@v0.8.1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1 # Altere para sua região
+          ssh-private-key: ${{ secrets.EC2_KEY }}
 
-      # Exemplo de deploy para Elastic Beanstalk
-      - name: Deploy para AWS Elastic Beanstalk
+      - name: Copiar arquivos para EC2
         run: |
-          zip -r app.zip . -x '*.git*' '*.github*' 'venv*' '__pycache__*'
-          aws elasticbeanstalk create-application-version \
-            --application-name "SEU_APP_NAME" \
-            --version-label "v-${{ github.run_number }}" \
-            --source-bundle S3Bucket="SEU_BUCKET",S3Key="app-v${{ github.run_number }}.zip"
-          aws elasticbeanstalk update-environment \
-            --environment-name "SEU_ENV_NAME" \
-            --version-label "v-${{ github.run_number }}"
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: us-east-1 # Altere para sua região
+          rsync -avz --exclude='.git*' --exclude='venv*' --exclude='__pycache__*' ./ ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:/home/${{ secrets.EC2_USER }}/lacrei_saude
 
-# IMPORTANTE:
-# - Configure os segredos AWS_ACCESS_KEY_ID e AWS_SECRET_ACCESS_KEY no GitHub.
-# - Substitua SEU_APP_NAME, SEU_ENV_NAME e SEU_BUCKET pelos nomes corretos do seu ambiente AWS.
-# - Se usar outro serviço AWS (ECS, EC2, Lambda), me avise para adaptar o deploy. 
+      - name: Deploy remoto via SSH
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} '
+            cd /home/${{ secrets.EC2_USER }}/lacrei_saude &&
+            docker-compose down &&
+            docker-compose up -d --build
+          ' 

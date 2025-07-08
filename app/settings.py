@@ -84,6 +84,14 @@ WSGI_APPLICATION = 'app.wsgi.application'
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'lacrei_saude',
+        'USER': 'lacrei_saude',
+        'PASSWORD': 'postgres',
+        'HOST': 'lacrei-saude-db',
+        'PORT': '5432',
+    },
+    'dev': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
