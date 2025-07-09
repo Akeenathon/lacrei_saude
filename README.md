@@ -1,10 +1,13 @@
-# Lacrei Saúde - Desafio Técnico
+# Lacrei Saúde — Desafio Técnico
 
-## Visão Geral
+## Sobre o Projeto
 
-API RESTful para gestão de profissionais da saúde e consultas médicas, com autenticação JWT, PostgreSQL, Docker, CI/CD e testes automatizados.
+API RESTful para gerenciar profissionais da saúde e consultas médicas. O projeto foi pensado para ser seguro, fácil de rodar em qualquer ambiente (local, Docker, cloud) e com deploy automatizado.  
+Tecnologias principais: **Django + DRF**, **PostgreSQL**, **Docker**, **Poetry** e **GitHub Actions**.
 
-##  Setup Local
+---
+
+## Como rodar localmente
 
 1. **Clone o repositório:**
    ```bash
@@ -12,112 +15,131 @@ API RESTful para gestão de profissionais da saúde e consultas médicas, com au
    cd lacrei-saude
    ```
 
-2. **Crie e ative o ambiente virtual:**
+2. **Instale as dependências:**
    ```bash
    poetry install
    poetry shell
    ```
 
-3. **Configure o banco de dados:**
-   - Por padrão, usa SQLite para dev. Para PostgreSQL, ajuste o `settings.py`.
+3. **Configuração do banco:**
+   - Por padrão, o ambiente local usa SQLite.  
+   - Se quiser usar PostgreSQL, ajuste o `settings.py` e configure as variáveis de ambiente.
 
-4. **Aplique as migrations:**
+4. **Migrations e servidor:**
    ```bash
    python manage.py migrate
-   ```
-
-5. **Rode o servidor:**
-   ```bash
    python manage.py runserver
    ```
 
 ---
 
-##  Setup com Docker
+## Usando com Docker
 
-1. **Suba os containers:**
+1. **Suba tudo com:**
    ```bash
    docker-compose up --build
    ```
 
-2. **Acesse a aplicação:**
+2. **Acesse:**
    - API: [http://localhost:8000](http://localhost:8000)
-   - Banco: `localhost:5432` (usuário/senha: lacrei_saude/postgres)
+   - Banco: `localhost:5432` (usuário: lacrei_saude, senha: postgres)
 
 ---
 
-##  Execução dos Testes
+## Testes
 
-- **Via Poetry:**
+- **Local:**
   ```bash
   poetry run python manage.py test
   ```
-- **Via Docker:**
+- **Docker:**
   ```bash
   docker-compose exec web python manage.py test
+  ```
+- Os testes cobrem:
+  - CRUD de profissionais
+  - CRUD de consultas
+  - Casos de erro (requisições inválidas, dados faltando, etc.)
+
+Se quiser ver a cobertura:
+```bash
+poetry run coverage run manage.py test && poetry run coverage report
+```
+
+---
+
+## Segurança e Boas Práticas
+
+- **Validação:** Toda entrada de dados passa pelos serializers do DRF, então não entra nada “errado” no banco.
+- **SQL Injection:** O Django ORM já cuida disso pra gente.
+- **CORS:** Configurado com `django-cors-headers`. Só libera para domínios permitidos (ajustável por ambiente).
+- **Autenticação:** JWT. Para acessar endpoints protegidos, pegue um token em `/api/v1/token/` e envie no header:
+  ```
+  Authorization: Bearer seu_token
+  ```
+- **Logs:** Tudo que é acesso e erro vai para arquivos em `/logs` (`access.log` e `errors.log`).  
+  Exemplo para ver logs:
+  ```bash
+  cat logs/access.log
+  cat logs/errors.log
   ```
 
 ---
 
-##  Fluxo de Deploy (CI/CD)
+## Endpoints principais
 
-- **Pipeline GitHub Actions:**
+- `/api/v1/healthcareworker/` — CRUD de profissionais
+- `/api/v1/medicalconsultation/` — CRUD de consultas
+- `/api/v1/token/` — Autenticação JWT
+
+---
+
+## Ambientes AWS
+
+- **Staging:** http://3.234.185.82:8080/
+- **Produção:** http://52.7.195.126:8000/
+
+Ambos estão na AWS, rodando via Docker, com deploy automatizado pelo GitHub Actions.
+
+---
+
+## CI/CD e Deploy
+
+- O pipeline faz:
   - Lint (flake8)
-  - Testes automatizados
+  - Testes
   - Build
-  - Deploy automático para EC2 (Docker + docker-compose)
-
-**Resumo:**
-1. Push na branch `main` dispara o pipeline.
-2. Código é copiado para a EC2 via SSH.
-3. Comando remoto executa `docker-compose down && docker-compose up -d --build`.
+  - Deploy automático (EC2 + Docker Compose)
+- Qualquer push na `main` já dispara tudo.
+- O deploy faz o build, sobe containers e reinicia a aplicação.
 
 ---
 
-##  Justificativas Técnicas
+## Rollback
 
-- **Django + DRF:** Rapidez no desenvolvimento, segurança e robustez.
-- **Poetry:** Gerenciamento moderno de dependências, fácil reprodutibilidade.
-- **PostgreSQL:** Banco relacional robusto, ideal para dados estruturados.
-- **Docker:** Padronização do ambiente, fácil deploy e escalabilidade.
-- **JWT:** Autenticação segura e stateless.
-- **CI/CD (GitHub Actions):** Automatização do ciclo de vida do projeto.
-- **Testes APITestCase:** Garantia de qualidade e segurança nas APIs.
-- **CORS:** Permite integração segura com frontends diversos.
-- **Logging:** Rastreabilidade de acessos e erros.
-
+- Se der problema, é só fazer um `git revert` do commit com bug e dar push na `main`. O pipeline faz o deploy da versão anterior.
+- Para produção real, recomendo Blue/Green: dois ambientes, deploy na “cor” nova, valida, e só troca o DNS se estiver tudo certo. Se der ruim, volta o DNS pro ambiente estável.
 
 ---
 
+## Documentação da API
 
-##  Proposta de Rollback Funcional
-
-- **Rollback via GitHub Actions:**
-  - Basta fazer um revert do commit com bug e dar push na `main`. O pipeline irá rodar novamente e restaurar a versão anterior automaticamente na EC2.
-
-- **Deploy Blue/Green (Sugestão para produção):**
-  - Manter dois ambientes (ex: `lacrei-saude-blue` e `lacrei-saude-green`).
-  - Deploy na nova cor, validação, e troca do tráfego DNS.
-  - Rollback rápido apenas alternando o DNS para o ambiente estável.
-
-- **Preview Deploy (Sugestão):**
-  - Usar branches de preview para testar features antes de ir para produção.
-
+- Tem uma coleção Postman pronta:  
+  [Coleção Postman](./lacrei_saude.postman_collection.json)
+- (Se quiser, pode plugar Swagger ou Redoc — só não deixei exposto por padrão.)
 
 ---
 
+## Decisões, Erros e Melhorias
 
-##  Endpoints principais
-
-- `/api/v1/healthcareworker/` - CRUD de profissionais
-- `/api/v1/medicalconsultation/` - CRUD de consultas
-- Autenticação JWT: `/api/v1/token/`
-
+- **CORS:** Usei variáveis de ambiente para facilitar deploy em vários ambientes.
+- **JWT:** Preferi JWT por ser simples e stateless.
+- **Logs:** Separei logs de acesso e erro para facilitar debug.
+- **Melhorias futuras:** Automatizar geração de docs Swagger/Redoc, adicionar monitoramento (Sentry/Prometheus), e criar testes para CORS.
 
 ---
 
-
-##  Autor
+## Autor
 
 - [Bryan Akenathon](https://github.com/akeenathon)
 
