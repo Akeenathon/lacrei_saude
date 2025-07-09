@@ -22,8 +22,8 @@ Tecnologias principais: **Django + DRF**, **PostgreSQL**, **Docker**, **Poetry**
    ```
 
 3. **Configuração do banco:**
-   - Por padrão, o ambiente local usa SQLite.  
-   - Se quiser usar PostgreSQL, ajuste o `settings.py` e configure as variáveis de ambiente.
+   - Por padrão, o ambiente local usa PostgreSQL.  
+   - Se quiser usar sqlite3, ajuste o `settings.py` e configure as variáveis de ambiente.
 
 4. **Migrations e servidor:**
    ```bash
